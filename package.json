@@ -4,11 +4,11 @@
   "description": "Mocha and Cucumber - two great tastes that taste great together!",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --ui ../../../index.js --compilers coffee:coffee-script ./test/*"
+    "test": "./node_modules/mocha/bin/mocha --ui ../../../index.js ./test/*"
   },
   "author": {
-    "name": "Steve Lamb",
-    "email": "steve@stevelamb.io"
+    "name": "Michael Arthur",
+    "email": ""
   },
   "license": "MIT",
   "keywords": [
@@ -21,13 +21,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeevl/mocha-cucumber.git"
+    "url": "https://github.com/mikey0000/mocha-cucumber.git"
   },
   "bugs": {
-    "url": "https://github.com/zeevl/mocha-cucumber/issues"
+    "url": "https://github.com/mikey0000/mocha-cucumber/issues"
   },
   "dependencies": {
-    "coffee-script": "^1.8.0",
     "mocha": "^2.0.1"
   },
   "devDependencies": {
